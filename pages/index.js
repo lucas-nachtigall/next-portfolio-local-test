@@ -29,7 +29,7 @@ const Page = () => {
                 Work
             </Heading>
              <Paragraph>
-             Arce é um desenvolvedor web  com paixão por criar serviços/coisas digitais que ele deseja. Ele tem um talento especial para todas as coisas desde o planejamento de produtos e design até a solução de problemas da vida real com código. Quando não está online, ele adora ir ao cinema. Atualmente, ele está estudando a biblioteca React e o framework Laravel, bem como Estrutura de dados.
+             Sou um desenvolvedor web com paixão por criar serviços/coisas digitais. Gosto de fazer as coisas desde o planejamento de produtos e design até a solução de problemas da vida real com código. Quando não estou online, adoro ir ao cinema. Atualmente, estou estudando a biblioteca React e o framework Laravel, bem como Estrutura de dados.
              </Paragraph>
              <Box align="center" my={4}>
                 <NextLink href="/works">
