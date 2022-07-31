@@ -10,6 +10,7 @@ import link_tree from '../public/images/works/link_tree.png'
 import task_list from '../public/images/works/task_list.png'
 import flexblog from '../public/images/works/flexblog.png'
 import dash_bootstrap from '../public/images/works/dash_bootstrap.png'
+import busca_cep from '../public/images/works/busca_cep.png'
 
 const Works = () => {
     return (
@@ -56,6 +57,12 @@ const Works = () => {
                 <Section>
                     <WorkGridItem id="dash_bootstrap" title="Dashboard Bootstrap" thumbnail={dash_bootstrap}>
                     Dashboard feita durante aprendizado do framework Bootstrap.
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="busca_cep" title="Encontre seu Endereço" thumbnail={busca_cep}>
+                    Uma aplicação feita com JavaScript puro que utiliza a API ViaCEP para encontrar endereços
+                    digitando apenas o CEP, muito útil para ganho de tempo em formulários.
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
