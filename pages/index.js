@@ -3,10 +3,12 @@ import { Container, Box, Heading, Image, useColorModeValue, Button, Link } from 
 import  Section from '../components/Section' 
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
     return (
+        <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Hello, I&apos;m a web developer based in Brazil! 
@@ -73,6 +75,7 @@ const Page = () => {
             </Paragraph>
         </Section>        
         </Container>
+        </Layout>
     )
 }
 

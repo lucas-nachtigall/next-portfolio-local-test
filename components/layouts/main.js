@@ -9,6 +9,7 @@ const Main = ({ children }) => {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Mateus Arce - Homepage</title>
+               
             </Head>
 
             <Navbar path={Router.asPath} />
