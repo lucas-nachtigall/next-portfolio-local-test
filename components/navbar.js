@@ -22,7 +22,7 @@ const LinkItem = ({ href, path, children }) => {
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
         <NextLink href={href}>
-            <Link 
+            <Link
             p={2}
             bg={active ? 'glassTeal' : undefined}
             color={active ? '#202023' : inactiveColor}>
@@ -36,7 +36,7 @@ const Navbar = props => {
     const { path } = props
 
     return (
-        <Box 
+        <Box
         position="fixed"
         as="nav"
         w="100%"
@@ -50,7 +50,7 @@ const Navbar = props => {
                         <Logo />
                     </Heading>
                 </Flex>
-                < Stack 
+                < Stack
                 direction={{base: 'column', md: 'row'}}
                 display={{base: 'none', md: 'flex'}}
                 width={{base: 'full', md: 'auto'}}
@@ -60,9 +60,9 @@ const Navbar = props => {
                     <LinkItem href="/works" path={path}>
                         Works
                     </LinkItem>
-                    <LinkItem href="/posts" path={path}>
+                    {/* <LinkItem href="/posts" path={path}>
                         Posts
-                    </LinkItem>
+                    </LinkItem> */}
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
@@ -76,9 +76,9 @@ const Navbar = props => {
                                 <NextLink href="/works" passHref>
                                     <MenuItem as={Link}>Works</MenuItem>
                                 </NextLink>
-                                <NextLink href="/posts" passHref>
+                                {/* <NextLink href="/posts" passHref>
                                     <MenuItem as={Link} >Posts</MenuItem>
-                                </NextLink>
+                                </NextLink> */}
                             </MenuList>
                          </Menu>
                     </Box>
