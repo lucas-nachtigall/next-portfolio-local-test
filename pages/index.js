@@ -27,7 +27,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Mateus Arce
             </Heading>
-            <p>Desenvolvedor Web ( UI Iniciante / Designer Iniciante )</p>
+            <p className="">Desenvolvedor Web ( UI Iniciante / Designer Iniciante )</p>
 
           </Box>
           <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
