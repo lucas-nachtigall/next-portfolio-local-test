@@ -16,12 +16,12 @@ const Works = () => {
     return (
         <Container>
             <Heading as="h3" fontSize={20} mb={4}>
-                Works
+                Projetos
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
                     <WorkGridItem id="dash_starwars" title="Dashboard Star Wars" thumbnail={dash_starwars}>
-                        Uma Dashboard mostrando informações de Naves, Personagens, 
+                        Uma Dashboard mostrando informações de Naves, Personagens,
                         Planetas e Luas do universo de Star Wars.
                         Foi utilizado o <strong>Axios</strong> para realizar as requisições
                         à <strong>API</strong> <i>SWAPI'</i>.
@@ -29,13 +29,13 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="lista_presenca" title="Lista de Presença" thumbnail={lista_presenca}>
-                        Uma aplicação de lista de presença desenvolvida utilizando a 
+                        Uma aplicação de lista de presença desenvolvida utilizando a
                         biblioteca ReactJS.
                     </WorkGridItem>
                 </Section>
                 <Section>
                     <WorkGridItem id="muda_tema" title="Troca Tema" thumbnail={muda_tema}>
-                        Uma aplicação feita com JavaScript puro em que o usuário pode mudar o tema 
+                        Uma aplicação feita com JavaScript puro em que o usuário pode mudar o tema
                         e escolher a cor do botão.
                     </WorkGridItem>
                 </Section>

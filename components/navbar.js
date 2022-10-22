@@ -58,7 +58,7 @@ const Navbar = props => {
                 flexGrow={1}
                 mt={{base: 4, nmd: 0}}>
                     <LinkItem href="/works" path={path}>
-                        Works
+                        Projetos
                     </LinkItem>
                     {/* <LinkItem href="/posts" path={path}>
                         Posts
@@ -67,7 +67,7 @@ const Navbar = props => {
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
                     <Box ml={2} display={{base: 'inline-block', md: 'none'}}>
-                         <Menu>
+                        <Menu>
                             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="options" />
                             <MenuList>
                                 <NextLink href="/" passHref>
@@ -80,7 +80,7 @@ const Navbar = props => {
                                     <MenuItem as={Link} >Posts</MenuItem>
                                 </NextLink> */}
                             </MenuList>
-                         </Menu>
+                        </Menu>
                     </Box>
                 </Box>
             </Container>

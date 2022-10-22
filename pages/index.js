@@ -11,8 +11,8 @@ import {
   FiGithub,
   FiInstagram
 } from 'react-icons/fi'
-
 import { FaDiscord } from "react-icons/fa";
+import { GrLinkedin } from "react-icons/gr";
 
 const Page = () => {
   return (
@@ -27,7 +27,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Mateus Arce
             </Heading>
-            <p className="">Desenvolvedor Web ( UI Iniciante / Designer Iniciante )</p>
+            <p className="">Desenvolvedor Web</p>
 
           </Box>
           <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
@@ -36,11 +36,11 @@ const Page = () => {
         </Box>
 
         <Section delay={0.1} >
-          <Heading as="h3" variant="section-title" >
-            Work
+          <Heading as="h3" variant="section-title" mb={3}>
+            Projetos
           </Heading>
           <Paragraph>
-            Sou um desenvolvedor web com paixão por criar serviços/coisas digitais. Gosto de fazer as coisas desde o planejamento de produtos e design até a solução de problemas da vida real com código.
+            Sou um desenvolvedor web com paixão por criar serviços digitais. Gosto de fazer as coisas desde o planejamento de produtos e design até a solução de problemas da vida real com código.
             Quando não estou online, adoro ir ao cinema. Atualmente, estou estudando a biblioteca React e o framework Laravel, bem como Estrutura de dados.
           </Paragraph>
           <Box align="center" my={4}>
@@ -52,7 +52,7 @@ const Page = () => {
           </Box>
         </Section>
         <Section delay={0.2}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" variant="section-title" mb={3}>
             Bio
           </Heading>
           <BioSection>
@@ -77,7 +77,7 @@ const Page = () => {
           </BioSection>
         </Section>
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" variant="section-title" mb={3}>
             Eu ♥
           </Heading>
           <Paragraph>
@@ -86,7 +86,7 @@ const Page = () => {
         </Section>
 
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" variant="section-title" mb={3}>
             Minhas Redes Sociais
           </Heading>
           <List>
@@ -108,6 +108,11 @@ const Page = () => {
             <ListItem>
               <Link href="https://discordapp.com/users/mateusarce00#6808" target="_blank">
                 <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={FaDiscord} />} >@mateusarce</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/mateus-arce/" target="_blank">
+                <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={GrLinkedin} />} >mateus-arce</Button>
               </Link>
             </ListItem>
           </List>
