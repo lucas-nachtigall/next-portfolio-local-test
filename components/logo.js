@@ -17,23 +17,23 @@ line-height: 10px;
 }
 `
 const Logo = () => {
-   const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.svg` 
-   return (
+  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.svg`
+  return (
     <Link href="/">
-         <a>
-            <LogoBox>
-                <img src={footPrintImg} widht={20} height={20} alt="Logo" />
-                <Text 
-                color={useColorModeValue('gary.800', 'whiteAlpha.900')}
-                fontFamily='M PLUS Rounded 1c'
-                fontWeight="bold"
-                ml={3}>
-                     Mateus Arce 
-                </Text>
-            </LogoBox>
-         </a>
+      <a>
+        <LogoBox>
+          <img src={footPrintImg} widht={20} height={20} alt="Logo" />
+          {/* <Text
+            color={useColorModeValue('gary.800', 'whiteAlpha.900')}
+            fontFamily='M PLUS Rounded 1c'
+            fontWeight="bold"
+            ml={3}>
+            Home
+          </Text> */}
+        </LogoBox>
+      </a>
     </Link>
-   )
+  )
 }
 
 export default Logo

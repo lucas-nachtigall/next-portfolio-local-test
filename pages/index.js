@@ -5,14 +5,14 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import {
   FiTwitter,
   FiGithub,
   FiInstagram
 } from 'react-icons/fi'
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaGitAlt, FaReact, FaNodeJs } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
+import { SiMysql, SiTypescript } from "react-icons/si";
 
 const Page = () => {
   return (
@@ -28,16 +28,18 @@ const Page = () => {
               Mateus Arce
             </Heading>
             <p className="">Desenvolvedor Web</p>
+            <p>Freelancer</p>
+            <p>UI | UX</p>
 
           </Box>
           <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align="center">
-            <Image borderColor="whiteAlpha.800" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/arce.png" alt="Profile Image" />
+            <Image borderColor="whiteAlpha.400" borderWidth={2} borderStyle="solid" maxWidth="100px" display="inline-block" borderRadius="20%" src="/images/arce.png" alt="Profile Image" />
           </Box>
         </Box>
 
         <Section delay={0.1} >
           <Heading as="h3" variant="section-title" mb={3}>
-            Projetos
+            Sobre
           </Heading>
           <Paragraph>
             Sou um desenvolvedor web com paixão por criar serviços digitais. Gosto de fazer as coisas desde o planejamento de produtos e design até a solução de problemas da vida real com código.
@@ -114,6 +116,29 @@ const Page = () => {
               <Link href="https://www.linkedin.com/in/mateus-arce/" target="_blank">
                 <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={GrLinkedin} />} >mateus-arce</Button>
               </Link>
+            </ListItem>
+          </List>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title" mb={3}>
+            Skills
+          </Heading>
+          <List>
+            <ListItem>
+              <Button variant="ghost" colorScheme="red" leftIcon={<Icon as={FaGitAlt} />} >Git</Button>
+            </ListItem>
+            <ListItem>
+              <Button variant="ghost" colorScheme="red" leftIcon={<Icon as={FaReact} />} >ReactJS</Button>
+            </ListItem>
+            <ListItem>
+              <Button variant="ghost" colorScheme="red" leftIcon={<Icon as={FaNodeJs} />} >NodeJS</Button>
+            </ListItem>
+            <ListItem>
+              <Button variant="ghost" colorScheme="red" leftIcon={<Icon as={SiMysql} />} >MYSQL</Button>
+            </ListItem>
+            <ListItem>
+              <Button variant="ghost" colorScheme="red" leftIcon={<Icon as={SiTypescript} />} >TypeScript</Button>
             </ListItem>
           </List>
         </Section>
