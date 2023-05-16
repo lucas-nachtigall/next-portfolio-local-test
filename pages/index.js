@@ -97,19 +97,19 @@ const Page = () => {
                 <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={FiGithub} />} >@mateusarcedev</Button>
               </Link>
             </ListItem>
-            <ListItem>
+            {/* <ListItem>
               <Link href="https://twitter.com/mateusarce00" target="_blank">
                 <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={FiTwitter} />} >@mateusarce00</Button>
               </Link>
-            </ListItem>
-            <ListItem>
+            </ListItem> */}
+            {/* <ListItem>
               <Link href="https://instagram.com/_m_arce" target="_blank">
                 <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={FiInstagram} />} >@_m_arce</Button>
               </Link>
-            </ListItem>
+            </ListItem> */}
             <ListItem>
-              <Link href="https://discordapp.com/users/mateusarce00#6808" target="_blank">
-                <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={FaDiscord} />} >@mateusarce</Button>
+              <Link href="https://discordapp.com/users/technomancer#8791" target="_blank">
+                <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={FaDiscord} />} >@technomancer</Button>
               </Link>
             </ListItem>
             <ListItem>
