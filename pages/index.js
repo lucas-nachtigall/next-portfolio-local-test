@@ -28,7 +28,6 @@ const Page = () => {
               Mateus Arce
             </Heading>
             <p className="">Desenvolvedor Web</p>
-            <p>Freelancer</p>
             <p>UI | UX</p>
 
           </Box>
