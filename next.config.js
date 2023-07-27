@@ -5,7 +5,7 @@ const nextConfig = {
   output: 'standalone',
   compress: false,
   images: {
-    unoptimized: façse,
+    unoptimized: false,
   },
 }
 
